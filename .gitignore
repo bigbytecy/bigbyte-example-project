@@ -1,0 +1,9 @@
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+/screenshots
+cypress/videos
+cypress/downloads
+/node_modules
+cypress/screenshots
