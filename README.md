@@ -15,8 +15,8 @@
 
 ## :gear: Setup
 
-1. `git clone https://github.com/helenanull/cypress-example.git`
-2. cd to `cypress-example` folder and run `npm install`
+1. `git clone https://github.com/bigbytecy/bigbyte-example-project.git`
+2. cd `bigbyte-example-project` folder and run `npm install`
 
 
 ## :heavy_check_mark: Run tests
@@ -28,7 +28,7 @@
     - cypress __headless mode__ (cypress run):
       - `npm run cy:run:web` OR `cypress run --env device=web`
 - If you installed Cypress zip:
-    - import **`cypress-example`** folder and you are good to go
+    - import **`bigbyte-example-project`** folder and you are good to go
 
 ## :bulb: Information
 #### :test_tube: Tests
