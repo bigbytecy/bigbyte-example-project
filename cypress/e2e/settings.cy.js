@@ -1,6 +1,6 @@
 import settings from '../selectors/settings.sel'
 import profile from '../selectors/profile.sel'
-import header from '../selectors/header.sel'
+import header from '../selectors/header.css'
 
 describe('Settings', () => {
     beforeEach(() => {

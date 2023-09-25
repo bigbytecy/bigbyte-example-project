@@ -1,16 +1,14 @@
-import login from '../selectors/login.sel'
-import header from '../selectors/header.sel'
+import login from '../selectors/login.css'
+import header from '../selectors/header.css'
 
 describe('Login', () => {
     // context is the same as describe
     context('unsuccessful', () => {
-        beforeEach(() => {
+        it('can see error message when username/password incorrect', () => {
             // visit ('/login') -> will visit baseUrl + /login
             // baseUrl is set in config - cypress.json file
             cy.visit('/login')
-        })
 
-        it('can see error message when username/password incorrect', () => {
             cy.get(login.emailField).type('random@test.com')
             cy.get(login.passwordField).type('random_pass')
             cy.get(login.signInButton).should('have.text', 'Login').click()

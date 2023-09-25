@@ -1,8 +1,8 @@
-import editor from '../selectors/editor.sel'
-import article from '../selectors/article.sel'
+import editor from '../selectors/editor.css'
+import article from '../selectors/article.css'
 
 describe('Article', () => {
-    const seeMoreLink = 'https://github.com/bigbytecy/training-pf-conduit'
+    const seeMoreLink = 'https://github.com/bigbytecy/bigbyte-example-project'
 
     beforeEach(() => {
         cy.register().then((response) => {
