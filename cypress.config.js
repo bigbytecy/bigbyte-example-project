@@ -6,7 +6,7 @@ module.exports = defineConfig({
     numTestsKeptInMemory: 15,
     defaultCommandTimeout: 15000,
     env: {
-        apiUrl: 'https://training.bigbyte.ee/api',
+        apiUrl: 'https://training.bigbyte.academy/api',
         device: 'desktop',
         email: 'test@test.com',
         password: 'Cypress123'
@@ -25,6 +25,6 @@ module.exports = defineConfig({
         setupNodeEvents: function (on, config) {
             return require('./cypress/plugins/index.js')(on, config)
         },
-        baseUrl: 'https://training.bigbyte.ee/#'
+        baseUrl: 'https://training.bigbyte.academy/#'
     }
 })

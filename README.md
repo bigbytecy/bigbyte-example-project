@@ -1,8 +1,8 @@
 # **Simple** E2E test suite with Cypress
 [![cypress-example](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/urshkd&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/urshkd/runs) [![cypress-example](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/count/urshkd&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/urshkd/runs)
-> **application under test:** https://training.bigbyte.ee/
+> **application under test:** https://training.bigbyte.academy/
 
-:information_source: Learn how to write these tests and more in our trainings. More info: [bigbyte.ee](https://bigbyte.ee)
+:information_source: Learn how to write these tests and more in our trainings. More info: [bigbyte.academy](https://bigbyte.academy)
 
 ## :goal_net: Goals
 - keep it simple - no 'custom' abstractions/functions/utils/helpers (use what Cypress provides)
